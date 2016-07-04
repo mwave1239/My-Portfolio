@@ -1,0 +1,65 @@
+.home-text {
+  padding-top: 10%;
+}
+
+.about-text {
+  padding-top: 10%;
+}
+
+.portfolio-text {
+  padding-top: 10%;
+  text-align: center;
+}
+
+.contact-text {
+  padding-top: 10%;
+}
+
+.about {
+  background: url('brick.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;  
+}
+
+.home {
+  background: url('cubes.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+}
+
+.portfolio {
+  background: url('cubes.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;
+}
+
+.contact {
+  background: url('brick.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 900px;  
+}
+
+p {
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+.thumb-size {
+  width: 250px;
+  height: 250px;
+}

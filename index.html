@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="jquery-ui.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+      <!-- <div class="container-fluid"> I tried putting this entire section in a container, but it makes the backgrounds have a padding which looks terrible-->
+      <!-- boostrap nav stuff done via the bootstrap docs on w3schools -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container" id="navbar">
+      <div class="row">
+      <div class="col-md-7">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Matthew Weideman</a></li>
+        </ul>
+      </div> <!-- col-md-7 -->
+      <div class="col-md-5">
+        <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      </div> <!-- col-md-5 --> 
+      </div> <!-- row -->
+      </div> <!-- container -->
+        </nav>
+
+      <div class="home" id="home">
+        <div class="container">   
+          <div class="row">
+            <div class="col-md-12 home-text">
+              <h1></h1>
+              <h1></h1>
+              <hr>
+              <a href="http://twitter.com/mwave1239" target="_blank"><button class="btn-lg">Twitter</button></a>
+              <a href="http://github.com/mwave1239/" target="_blank">
+                <button class="btn-lg">Github</button></a>
+              <a href="https://www.linkedin.com/in/matt-weideman-8a731426" target="_blank">
+                <button class="btn-lg">LinkedIn</button></a>
+              <a href="http://codingdojo.com" target="_blank">
+                <button class="btn-lg">Codingdojo</button></a>
+          </div>  <!-- col-md-12 -->
+        </div> <!-- row -->
+      </div>  <!-- container -->    
+      </div> <!-- home -->
+
+      <div class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 about-text">
+              <h3><p>About me:</p></h3>
+              <p>I have worked in IT for about 18 years. I've owned my own company, I worked for Arizona State Univeristy, a think tank in Washington DC, and now I work for the Federal Government at the Bureau of Labor Statistics.</p>
+              <p>I am currently doing a developer bootcamp with Coding Dojo to learn more about full stack developing. Eventually, I'd like to work in some sort of data visualization field, maybe even at the Bureau of Labor Statistics.</p>
+            </div>  <!-- col-md-5 -->
+            <div class="col-md-7 about-text">
+              <img class="img-responsive img-circle img-thumbnail"  src="selfie.jpg" height=300 width=300>
+            </div> <!-- col-md-7 -->
+          </div> <!-- row -->
+        </div> <!-- container -->
+      </div> <!-- about -->
+        
+      <div class="portfolio" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 portfolio-text">
+              <h1>Portfolio</h1>
+            </div>  <!-- col-md-12 -->
+          </div> <!-- row -->
+
+         <!-- portfolio links row 1 -->
+          <div class="row">
+            <div class="col-md-4">
+              <p>Portfolio Project - Boostrap, CSS, JQuery</p>
+              <a href="https://github.com/mwave1239/My-Portfolio" target="_blank">
+              <img src="portfolio.PNG" class="img-thumbnail"></a>        
+            </div> <!-- col-md-3 -->
+            <div class="col-md-4">
+              <p>Modeling the TTIP agreement</p>
+              <a href="https://www.mccaininstitute.org/programs/decision-theater/modeling-the-ttip-trade-agreement">
+              <img src="ttip.png"  class="img-thumbnail"></a>         
+            </div> <!-- col-md-4 -->
+            <div class="col-md-4">
+              <p>Bio-Terrorism simulation</p>
+              <a href="https://www.mccaininstitute.org/programs/decision-theater/smallpox-decision-theater">
+              <img src="SIGA.png"  class="img-thumbnail"></a>   
+            </div> <!-- col-md-4 -->      
+          </div> <!-- portfolio link row 1 --> 
+          
+          <!-- portfolio links row 2 -->
+          <div class="row">
+            <div class="col-md-4">
+              <p>US MexPat tool</p>        
+             <a href="https://www.mccaininstitute.org/programs/decision-theater/u.s.-mexico-policy-analysis-tool">
+              <img src="MexPat.png"  class="img-thumbnail"></a>   
+            </div> <!-- col-md-4 -->
+            <div class="col-md-4">
+              <p>Complex Systems Framework</p>
+              <a href="https://github.com/mwave1239/csf">
+              <img src="csf.png"  class="img-thumbnail"></a>  
+            </div> <!-- col-md-4 -->
+            <div class="col-md-4">
+              <p>Hopefully more soon</p>
+              <a href="#">
+              <img src="under_construction.jpg"  class="img-thumbnail" height=200 width=200></a>  
+            </div> <!-- col-md-4 -->      
+          </div> <!-- portfolio link row 2 --> 
+          
+
+        </div> <!-- container -->
+      </div> <!-- portfolio -->
+
+      <div class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 contact-text">
+              <h1>Ways to contact me</h1>
+              <a href="mailto:mwave@asu.edu"><h2>My email</h2></a>
+            </div>  <!-- col-md-6 -->
+          </div> <!-- row -->
+              <div class="row">
+                <div class="col-md-1">
+                  <a href="http://twitter.com/mwave1239" target="_blank"><button class="btn-lg">Twitter</button></a>
+                </div> <!-- col-md-2 -->
+              </div> <!-- row 2 -->
+          <div class="row">
+            <div class="col-md-1">
+              <a href="http://github.com/mwave1239/" target="_blank">
+                <button class="btn-lg">Github</button></a>
+            </div> <!-- col-md-1 -->
+          </div> <!-- row -->
+          <div class="row">
+            <div class="col-md-1">
+              <a href="https://www.linkedin.com/in/matt-weideman-8a731426" target="_blank">
+                <button class="btn-lg">LinkedIn</button></a>
+            </div> <!-- col-md-1 -->
+            </div> <!-- row -->
+           <div class="row">
+            <div class="col-md-1">
+              <a href="http://codingdojo.com" target="_blank">
+                <button class="btn-lg">CodingDojo</button></a>
+             </div> <!-- col-md-6 -->
+           </div>  <!-- row -->
+        </div>  <!-- container -->  
+      </div> <!-- contact -->
+  
+</body>
+</html>
